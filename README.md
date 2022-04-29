@@ -1,1 +1,1 @@
-# cronometro
+Criação de um cronômetro progressivo.

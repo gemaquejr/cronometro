@@ -1,0 +1,72 @@
+body {
+    background-image: url("./images/backgroundTime.jpeg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #083383;
+
+}
+
+.container {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #06111a;
+    box-shadow:   -12px -12px 30px 5px rgba(219, 201, 201, 0.9),
+    12px 12px 30px 5px rgba(33, 47, 75, 0.2),
+    inset -12px -12px 30px 5px rgba(255, 255, 255, 0.9),
+    inset 12px 12px 30px 5px rgba(50, 58, 73, 0.2);
+}
+
+.container2 {
+    background-color: #0e4772;
+    border-radius: 50%;
+    box-shadow:-12px -12px 30px 5px rgba(255, 255, 255, 0.9),
+    12px 12px 30px 5px rgba(50, 58, 73, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    height: 450px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+  }
+
+.container h3 {
+    color: #f3efed;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 90px;
+    font-size: 28px;
+}
+
+.container p {
+    margin-top: 55px;
+    color: #f3efed;
+    font-size: 58px;
+}
+
+.container button {
+    cursor: pointer;
+    margin: 70px 5px 0;
+    width: 80px;
+    height: 35px;
+    background: transparent;
+    color: #f3efed;
+    border: 1px solid #d2e4f1;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all .4s;
+}
+
+.container button:hover {
+    background-color: #ecf0f3;
+    box-shadow: inset 12px 12px 24px #dfe7ec,
+    inset -12px -12px 24px #ffffff;
+    border: none;
+}
