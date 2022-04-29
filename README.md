@@ -1,1 +1,1 @@
-Criação de um cronômetro progressivo.
+## Criação de um cronômetro progressivo.:heavy_check_mark:
