@@ -1,5 +1,7 @@
 ## Criação de um cronômetro progressivo.:heavy_check_mark:
 
+## ✋🏻 Pré-requisitos
+
 - [git](https://git-scm.com/downloads): Ferramenta para gerenciar o código-fonte
 
 - [Visual Studio Code](https://code.visualstudio.com/): Editor de Código Fonte
